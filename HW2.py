@@ -1,7 +1,7 @@
 file= open("this.txt","r")
 text= file.read()
 print(text)
-for char in (',.?!-'):
+for char in (',.?!-";:'''):
     text=text.replace(char,"")
 
 text=text.lower()
